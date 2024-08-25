@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduVick - Home for Learners</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .logo img {
+            height: 40px;
+            vertical-align: middle;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content h1 {
+            font-size: 1.5rem;
+        }
+
+        .content p {
+            font-size: 1rem;
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        footer ul li {
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                justify-content: center;
+                margin-top: 10px;
+            }
+
+            nav ul li {
+                margin-left: 10px;
+            }
+
+            .content h1 {
+                font-size: 1.25rem;
+            }
+
+            .content p {
+                font-size: 0.9rem;
+                padding: 0 15px;
+            }
+
+            footer ul li {
+                margin: 5px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo img {
+                height: 30px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin-left: 0;
+                margin-bottom: 10px;
+            }
+
+            .content h1 {
+                font-size: 1rem;
+            }
+
+            .content p {
+                font-size: 0.8rem;
+            }
+
+            footer ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            footer ul li {
+                margin: 3px 0;
+            }
+
+            footer p {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="create-a-modern-and-professional-logo-for-an-educa-A6aO_MlMTTi_OKicFi-Ekw-HruZc1voSl-d7rnfLjiQHA.jpeg" alt="EduVick Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Study Resources</a></li>
+                <li><a href="#">Ask Questions</a></li>
+                <li><a href="#">Workshops</a></li>
+                <li><a href="#">Programming Courses</a></li>
+                <li><a href="#">Admission Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h1>Welcome to EduVick</h1>
+        <p>EduVick is your one-stop destination for free learning resources, course materials, and programming tutorials. We provide in-depth guides and resources to help students excel in their studies.</p>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+        <p>&copy; 2024 EduVick. All rights reserved.</p>
+    </footer>
+</body>
+</html>
